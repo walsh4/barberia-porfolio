@@ -1,4 +1,4 @@
-import { Calendar, Instagram, MapPin, Phone, Scissors, Sparkles, Star } from 'lucide-react'
+import { Calendar, Camera, MapPin, Phone, Scissors, Sparkles, Star } from 'lucide-react'
 
 const services = [
   { name: 'Corte clasico', detail: 'Limpio, preciso y adaptado a tu estilo.', price: '18 EUR' },
@@ -29,7 +29,7 @@ function App() {
               Reservar cita
             </a>
             <a className="button button--ghost" href="https://www.instagram.com/" target="_blank" rel="noreferrer">
-              <Instagram size={18} aria-hidden="true" />
+              <Camera size={18} aria-hidden="true" />
               Instagram
             </a>
           </div>
